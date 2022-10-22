@@ -1,0 +1,27 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": " \"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Lomachenko84/Node.js.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Lomachenko84",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lomachenko84/Node.js/issues"
+  },
+  "homepage": "https://github.com/Lomachenko84/Node.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4"
+  }
+}
